@@ -1,0 +1,5 @@
+getwd()
+library(haven)
+df <- read_sav("XXXXXXXXX.sav")
+View(df)
+write.csv(df,'XXXXXXXXX.csv')
